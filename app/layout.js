@@ -33,6 +33,9 @@ export default function RootLayout({ children }) {
               <Link href="/contact">Contact</Link>
             </nav>
           </div>
+          <head>
+            <meta name="google-site-verification" content="YOUR_GOOGLE_CODE" />
+            </head>
         </header>
 
         <main className="mx-auto max-w-6xl p-6">{children}</main>
